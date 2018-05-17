@@ -43,3 +43,15 @@ After makeing changes to Solidity contracts, just run `migrate --reset` in the t
 - Vue
 - Vuex
 - Bootstrap
+
+
++ 进入目录/Users/zheyi/work_energy/web3/solidity/demo3/eth-truffle-vue-master/backend/eth
+
+执行脚本
+```
+truffle compile --compile-all
+truffle migrate --reset
+```
+build目录下的contracts目录生成相关智能合约编译的json文件
+将该目录文件拷贝一份到 frontend/src/contracts/目录下
+然后运行前端脚本代码
